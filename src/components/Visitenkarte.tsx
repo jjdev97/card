@@ -3,7 +3,6 @@ import Link from 'next/link';
 import JjLogo from "../../public/JJ.svg"
 import Image from 'next/image';
 import KontaktButton from './KontaktButton';
-import Footer from './Footer';
 
 export default function Visitenkarte() {
 
@@ -18,19 +17,18 @@ export default function Visitenkarte() {
         <p className="text-sm mb-6 text-center">Willkommen in der Zukunft des Webs! 🚀 <br />
 Seit dem Jahr 2022 entwickeln wir Projekte, um digitale Träume Wirklichkeit werden zu lassen. Hier setzen wir keine Grenzen für Kreativität und Innovation.</p>
         <div className="flex flex-col justify-center space-y-12">
-          <Link href="tel:+123456789" className="text-lime-100">
+          <Link href="tel:+4915786599562" className="text-lime-100">
             <EnvelopeIcon className='h-12 w-12' />
             </Link>
-          <Link href="mailto:jan@example.com" className="text-lime-100">
+          <Link href="mailto:jj.development@outlook.com" className="text-lime-100">
             <DevicePhoneMobileIcon className='h-12 w-12' />
           </Link>
-          <Link href="https://www.example.com" className="text-lime-100" target="_blank" rel="noopener noreferrer">
+          <Link href="https://portfolio-jj.vercel.app" className="text-lime-100" target="_blank" rel="noopener noreferrer">
             <ArrowTopRightOnSquareIcon className='h-12 w-12' />
           </Link>
           </div>
           <KontaktButton />
       </div>
-      <Footer />
     </div>
   );
 };

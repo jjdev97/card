@@ -6,9 +6,9 @@ import { Button } from './ui/button';
 const generateVCard = () => {
   const contactData = {
     name: 'Jan Jansen',
-    phone: '+123456789',
-    email: 'jan@example.com',
-    website: 'https://www.example.com',
+    phone: '+4915786599562',
+    email: 'jj.development@outlook.com',
+    website: 'https://portfolio-jj.vercel.app',
   };
 
   const vCardContent = `BEGIN:VCARD
