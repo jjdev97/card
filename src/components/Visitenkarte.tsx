@@ -18,10 +18,10 @@ export default function Visitenkarte() {
 Seit dem Jahr 2022 entwickeln wir Projekte, um digitale Träume Wirklichkeit werden zu lassen. Hier setzen wir keine Grenzen für Kreativität und Innovation.</p>
         <div className="flex flex-col justify-center space-y-12">
           <Link href="tel:+4915786599562" className="text-lime-100">
-            <EnvelopeIcon className='h-12 w-12' />
+            <DevicePhoneMobileIcon className='h-12 w-12' />
             </Link>
           <Link href="mailto:jj.development@outlook.com" className="text-lime-100">
-            <DevicePhoneMobileIcon className='h-12 w-12' />
+            <EnvelopeIcon className='h-12 w-12' />
           </Link>
           <Link href="https://portfolio-jj.vercel.app" className="text-lime-100" target="_blank" rel="noopener noreferrer">
             <ArrowTopRightOnSquareIcon className='h-12 w-12' />
